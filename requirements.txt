@@ -1,0 +1,12 @@
+# Core app
+streamlit>=1.40
+pandas>=2.0
+scikit-learn>=1.3
+langchain-core>=0.3
+
+# Optional LLM providers (the app runs fully offline without an API key)
+langchain-openai>=0.2
+langchain-anthropic>=0.3
+
+# Tests
+pytest>=8.0
